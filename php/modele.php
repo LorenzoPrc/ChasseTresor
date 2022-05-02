@@ -17,7 +17,7 @@ function lireScores(){ //rend la collection de tous les scores
     return $pdo -> query("SELECT * FROM score ORDER BY score_Difficulte, score_Valeur") -> fetchAll();
 }
 
-function lireJoueurScores($id){
+function lireJoueurScores($id){ //rend la collection d'un score en particulier
     
     $pdo = connexion();
     $res = $pdo -> prepare("SELECT * FROM score WHERE score_IdJoueur=:idJoueur");

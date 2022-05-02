@@ -42,7 +42,7 @@
 
             <article class = "col-xs-12 col-sm-12 col-md-8 col-lg-8">
 
-                <h1 id = "intro"> Choissisez votre difficulté <?php echo($nom) ?> ! </h1>
+                <h1 id = "intro"> Choisissez votre difficulté <?php echo($nom) ?> ! </h1>
 
                 <form action = "jouer.php" method = "post">
 
