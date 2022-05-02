@@ -544,20 +544,45 @@ function clignotement(id, vitesse){
 
 function vitesse(x, y, i, j){
 
-    a = Math.abs(x - i)
-    b = Math.abs(y - j)
+    let a = Math.abs(x - i)
+    let b = Math.abs(y - j)
 
-    if(a == 1 || b == 1){
+    if(x == i || y == j){
 
-        return "rapide"
+        if(a == 1 || b == 1){
 
-    }else if(a == 2 || b == 2){
+            return "rapide"
 
-        return "moyen"
+        }else if(a == 2 || b == 2){
+
+            return "moyen"
+
+        }else{
+
+            return "normal"
+        }
 
     }else{
 
-        return "normal"
+        let p = Math.pow(a,2)
+        let q = Math.pow(b,2)
+        let pyth = Math.floor(Math.sqrt(p + q))
+        console.log(pyth)
+
+        if(pyth == 1){
+
+            return "rapide"
+
+        }else if(pyth == 2){
+
+            return "moyen"
+
+        }else{
+
+            return "normal"
+        }
+
+
     }
 }
 
