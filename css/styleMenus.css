@@ -1,0 +1,40 @@
+/*
+    Ajustement des menus du début
+*/
+
+#intro{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: white;
+}
+
+.input{
+
+    border-radius: 10px;
+    width: 100px;
+}
+
+.jouerIntro{
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.erreur{
+
+    color: white;
+    background-color: #DE2A21;
+    text-align: center;
+}
+
+#btnInscription{
+
+    margin-top: 20%;
+}
+
+body{
+
+    background-color: black;
+}

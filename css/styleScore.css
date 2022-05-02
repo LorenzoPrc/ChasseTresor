@@ -1,0 +1,23 @@
+body{
+
+    background-color: black;
+    color: white;
+}
+
+table{
+
+    border: solid 2px white;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+tr td{
+
+    border: solid 2px white;
+    width: 75px;
+    height: 30px;
+    text-align: center;
+}
+

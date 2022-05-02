@@ -1,0 +1,123 @@
+/*
+    Définition et couleurs des cases
+*/
+
+.case{
+
+    width: 50px;
+    height: 50px;
+    border: solid 2px black;
+}
+
+.nonJoue{
+
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.bonus{
+
+    background-color: #21DE2A;
+    background-image: url('images/temps.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.malus{
+
+    background-color: #DE2A21;
+    background-image: url('images/temps.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.neutre{
+
+    background-color: grey;
+}
+
+.changement{
+
+    background-color: #EE11D6;
+    background-image: url('images/deplacement.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reroll{
+
+    background-color: #11D6EE;
+    background-image: url('images/tempete.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bombe{
+
+    background-color: grey;
+    background-image: url('images/grenade.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tresor{
+
+    background-color: #2A21DE;
+    background-image: url('images/otage.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.radar{
+
+    background-color: #D6EE11;
+    background-image: url('images/radar.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*
+    Style général de la page de jeu
+*/
+
+#infos{
+
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.boussole{
+
+    text-align: center;
+}
+
+#boussole{
+    
+    right: 81%;
+    position: absolute;
+    top: 60%;
+    bottom: auto;
+}
+
+.caseB{
+
+    background-color: grey;
+    width: 40px;
+    height: 40px;
+}
+
+table{
+
+    position: relative;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}

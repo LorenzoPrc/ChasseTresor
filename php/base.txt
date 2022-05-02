@@ -1,0 +1,20 @@
+CREATE DATABASE Jeu;
+
+USE Jeu;
+
+CREATE TABLE Joueur(
+	joueur_Id INTEGER AUTO_INCREMENT NOT NULL,
+	joueur_Pseudo VARCHAR(20) NOT NULL,
+	joueur_Mdp VARCHAR(40) NOT NULL,
+	PRIMARY KEY(joueur_Id));
+
+CREATE TABLE Score(
+	score_Id INTEGER AUTO_INCREMENT NOT NULL,
+	score_Valeur VARCHAR(10) NOT NULL,
+	score_Difficulte VARCHAR(10) NOT NULL,
+	score_Niveau INTEGER NOT NULL,
+    	score_IdJoueur INTEGER NOT NULL,
+	PRIMARY KEY(score_Id),
+	FOREIGN KEY(score_IdJoueur) REFERENCES Joueur(joueur_Id));
+	
+

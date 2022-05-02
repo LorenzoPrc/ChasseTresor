@@ -1,0 +1,54 @@
+.case{
+
+    width: 75px;
+    height: 30px;
+    border: solid 2px black;
+}
+
+.bonus{
+
+    background-color: #21DE2A;
+}
+
+.malus{
+
+    background-color: #DE2A21;
+}
+
+.neutre{
+
+    background-color: grey;
+}
+
+.changement{
+
+    background-color: #EE11D6;
+}
+
+.reroll{
+
+    background-color: #11D6EE;
+}
+
+.bombe{
+
+    background-color: black;
+
+}
+
+.tresor{
+
+    background-color: #2A21DE;
+}
+
+.radar{
+
+    background-color: #D6EE11;
+}
+
+table{
+
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
